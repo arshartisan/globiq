@@ -148,7 +148,7 @@ export default function ProfilePage() {
             </form>
           </Card>
         </motion.div>
-        <ThemeDebug />
+        {/* <ThemeDebug /> */}
       </main>
     </>
   )

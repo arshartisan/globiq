@@ -131,11 +131,11 @@ export default function HomePage() {
       <main className="container py-8">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl font-bold">Explore Countries</h1>
-          {user && (
+          {/* {user && (
             <Button variant="outline" asChild>
               <Link href="/admin/seed">Seed Sample Data</Link>
             </Button>
-          )}
+          )} */}
         </div>
 
         <SearchFilters onSearch={handleSearch} onRegionChange={handleRegionChange} regions={regions} />

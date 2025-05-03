@@ -31,7 +31,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2">
             <Globe className="h-6 w-6 text-emerald-600" />
-            <span className="text-lg font-bold">Country Explorer</span>
+            <span className="text-lg font-bold">Globiq</span>
           </Link>
         </div>
 
@@ -41,9 +41,8 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`transition-colors hover:text-emerald-600 ${
-                  pathname === link.href ? "text-emerald-600 font-medium" : ""
-                }`}
+                className={`transition-colors hover:text-emerald-600 ${pathname === link.href ? "text-emerald-600 font-medium" : ""
+                  }`}
               >
                 {link.label}
               </Link>
@@ -81,9 +80,8 @@ export function Navbar() {
                         <Link
                           key={link.href}
                           href={link.href}
-                          className={`text-base transition-colors hover:text-emerald-600 ${
-                            pathname === link.href ? "text-emerald-600 font-medium" : ""
-                          }`}
+                          className={`text-base transition-colors hover:text-emerald-600 ${pathname === link.href ? "text-emerald-600 font-medium" : ""
+                            }`}
                           onClick={() => setIsOpen(false)}
                         >
                           {link.label}
